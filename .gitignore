@@ -1,0 +1,58 @@
+# .gitignore
+
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Compiled source
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore .env file containing sensitive information
+.env
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+
+# Ignore pytest cache
+__pycache__/
+.pytest_cache/
+
+# Ignore pycodestyle configuration
+.pep8
+
+# Ignore mypy configuration
+.mypy_cache/
+.dmypy.json
+
+# Ignore PyInstaller build directory
+build/
+dist/
+
+# Ignore logs
+*.log
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
